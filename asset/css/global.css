@@ -4,6 +4,11 @@
     line-height: 1;
     list-style: none;
 }
+
+body{
+    background-color: blue;
+}
+
 .wrap{
     width: 1280px;
     margin: 0 auto;

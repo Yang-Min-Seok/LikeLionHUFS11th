@@ -1,0 +1,27 @@
+#header{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#header a{
+    display: block;
+    width:20%;
+}
+
+#header a:nth-child(1){
+    background-image: url("../img/MainLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#header a:nth-child(2){
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+}
