@@ -1,0 +1,10 @@
+* {
+    margin:0;
+    padding:0;
+    line-height: 1;
+    list-style: none;
+}
+.wrap{
+    width: 1280px;
+    margin: 0 auto;
+}
