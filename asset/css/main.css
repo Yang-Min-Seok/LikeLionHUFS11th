@@ -1,0 +1,32 @@
+#main{
+    display:flex;
+}
+
+#main div{
+    width:50%;
+}
+
+/* left */
+#main div:nth-child(1){
+    color: #fff;
+}
+
+#main div:nth-child(1) p{
+    font-size: 23px;
+    line-height: 3;
+}
+
+#main div:nth-child(1) h3{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+#main div:nth-child(1) div{
+    height:500px;
+    width: 100%;
+    background-image: url("../img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
