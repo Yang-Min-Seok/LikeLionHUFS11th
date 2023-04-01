@@ -1,9 +1,10 @@
 #main{
     display:flex;
+    justify-content: space-between;
 }
 
 #main div{
-    width:50%;
+    width:45%;
 }
 
 /* left */
@@ -29,4 +30,257 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* right */
+#main div:nth-child(2){
+
+}
+
+/* white box */
+#main div:nth-child(2) form{
+    background-color: #fff;
+    height: 90%;
+    border-radius: 20px;
+    position: relative;
+}
+
+#main div:nth-child(2) form div:nth-child(1){
+    display:flex;
+    width: 100%;
+    height: 50px;
+}
+
+#main div:nth-child(2) form div:nth-child(1) a{
+    display:block;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+#main div:nth-child(2) form div:nth-child(1) a:nth-child(1){
+    color: blue;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#main div:nth-child(2) form div:nth-child(1) a:nth-child(2){
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #eee;
+    border-top-right-radius: 20px;
+}
+
+#main div:nth-child(2) form section:nth-child(2){
+    padding:50px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) p:nth-child(1){
+    font-size: 20px;
+    line-height: 2;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(2){
+    border:2px solid #eee;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:100%;
+    margin-bottom: 30px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(2) i{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(2) input{
+    display: inline-block;
+    height:40px;
+    width:calc(100% - 36.5px);
+    border:none;
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(3){
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(3) p{
+
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(3) a{
+    text-decoration: none;
+    color:blue;
+    line-height: 40px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(4){
+    border:2px solid #eee;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:100%;
+    margin-bottom: 30px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(4) i{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(4) input{
+    height:47px;
+    width:calc(100% - 45px);
+    border:none;
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(4) div:nth-child(3){
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    background-image: url("../img/Eye1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width:37px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) input:nth-child(5){
+    display: block;
+    width:100%;
+    height:50px;
+    color:#fff;
+    background-color: blue;
+    border:none;
+    border-radius:10px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) p:nth-child(6){
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7){
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height:70px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a{
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(1){
+    background-image: url("../img/GoogleLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#main div:nth-child(2) section div:nth-child(7) a:nth-child(1)::after{
+    content: "Google";
+    position: absolute;
+    color: #000;
+    bottom: -20px;
+    left: 25px;
+}
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(1)::after{
+    content: "Google";
+    position: absolute;
+    color: #000;
+    bottom: -22px;
+    left: 25px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(2){
+    background-image: url("../img/KakaoLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(2)::after{
+    content: "Kakao";
+    position: absolute;
+    color: #000;
+    bottom: -22px;
+    left: 28px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(3){
+    background-image: url("../img/GithubLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(3)::after{
+    content: "Github";
+    position: absolute;
+    color: #000;
+    bottom: -22px;
+    left: 26px;
+}
+
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(4){
+    background-image: url("../img/FacebookLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#main div:nth-child(2) form section:nth-child(2) div:nth-child(7) a:nth-child(4)::after{
+    content: "Facebook";
+    position: absolute;
+    color: #000;
+    bottom: -22px;
+    left: 17px;
+}
+
+/* white box footer */
+#main div:nth-child(2) div:nth-child(2){
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#main div:nth-child(2) div:nth-child(2) a{
+    display: inline-block;
+    width: calc(100% / 3);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#main div:nth-child(2) div:nth-child(2) a:nth-child(1){
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+#main div:nth-child(2) div:nth-child(2) a:nth-child(2){
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+#main div:nth-child(2) div:nth-child(2) a:nth-child(3){
+    
 }

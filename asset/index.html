@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1df54ec624.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div class="wrap">
@@ -24,7 +27,8 @@
 
         <!-- main -->
         <section id="main">
-            <!-- intro and image -->
+            
+            <!-- left -->
             <div>
                 <p>
                     개발자 전용
@@ -36,31 +40,52 @@
                 <div></div>
             </div>
 
-            <!-- login and signin -->
+            <!-- right -->
             <div>
-
-                <div>
-                    <a href="#">로그인</a>
-                    <a href="#">회원가입</a>
-                </div>
-
+                <!-- white box -->
                 <form>
-                    <p>이메일</p>
-                    <input type="email">
-                    <p>비밀번호</p>
-                    <a href=""></a>
-                    <input type="password">
-                    <input type="submit" value="로그인">
+                    <div>
+                        <a href="#">로그인</a>
+                        <a href="#">회원가입</a>
+                    </div>
+                    
+                    <section>
+                        <p>이메일</p>
+                        <div>
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" name = "email" placeholder="이메일을 입력해주세요">
+                        </div>
+
+                        <div>
+                            <p>비밀번호</p>
+                            <a href="#">비밀번호 재설정</a>
+                        </div>
+                        
+                        <div>
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="pw" placeholder="비밀번호를 입력해주세요">
+                            <div></div>
+                        </div>
+                        
+                        <input type="submit" value="로그인">
+
+                        <p>다른 계정으로 로그인하기</p>
+                        <div>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                    </section>
                 </form>
 
-                <p>다른 계정으로 로그인하기</p>
-
+                <!-- white box footer -->
                 <div>
-                    <a href="#"><img src="" alt="Google"></a>
-                    <a href="#"><img src="" alt="Kakao"></a>
-                    <a href="#"><img src="" alt="Github"></a>
-                    <a href="#"><img src="" alt="Facdbook"></a>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보 처리방침</a>
+                    <a href="#">FAQ/문의</a>
                 </div>
+                
             </div>
         </section>
     </div>
