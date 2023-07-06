@@ -7,7 +7,7 @@ export const Navbar = styled.div`
     p {
         font-family: serif;
         margin:0;
-        font-size: 150%;
+        font-size: 200%;
         text-align: center;
         line-height: 3;
         cursor: pointer;
@@ -21,6 +21,6 @@ export const Navbar = styled.div`
         width: 20%;
     }
     p:nth-child(2){
-        width: 10%;
+        width: 20%;
     }
 `

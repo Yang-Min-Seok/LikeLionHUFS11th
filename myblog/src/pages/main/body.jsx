@@ -1,6 +1,5 @@
 import { BodyDiv } from "./style";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
 
 function Body() {
 
@@ -9,10 +8,14 @@ function Body() {
     const handleOnClick = (e) => {
         
         const order = e.target.innerText;
-        
-        if (order === '글쓰기'){
-            navigate(`/write`);
+        const id = document.getElementById('login').innerText.slice(0, -1);
+        if (order === '글쓰기' && id === 'logI'){
+            alert('로그인 해 주세요');
         }
+        else if (order === '글쓰기'){
+            navigate(`/write`, {state:{id:id}});
+        }
+
     };
     
     return (
