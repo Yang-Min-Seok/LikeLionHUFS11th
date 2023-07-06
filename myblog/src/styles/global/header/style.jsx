@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Navbar = styled.div`
-    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 
@@ -10,8 +9,12 @@ export const Navbar = styled.div`
         margin:0;
         font-size: 150%;
         text-align: center;
-        line-height:2;
+        line-height: 3;
         cursor: pointer;
+        transition: all 0.3s;
+    }
+    p:hover{
+        color:#A67951;
     }
 
     p:nth-child(1){
@@ -20,5 +23,4 @@ export const Navbar = styled.div`
     p:nth-child(2){
         width: 10%;
     }
-    
 `
