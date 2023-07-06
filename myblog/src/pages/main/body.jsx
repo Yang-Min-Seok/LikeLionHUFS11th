@@ -1,5 +1,6 @@
 import { BodyDiv } from "./style";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function Body() {
 
@@ -18,9 +19,19 @@ function Body() {
 
     };
     
+    // 글목록 관리
+    const [articleList, setArticleList] = useState([]);
+    
+
     return (
         <BodyDiv>
             <p onClick={handleOnClick}>글쓰기</p>
+            {articleList.length ? 
+            <div id="articleBox">글상자</div> : 
+            <h1>
+                아직 글이 없어요<br />
+                글쓰기 버튼을 눌러 글을 등록해주세요
+            </h1>}
         </BodyDiv>
     )
 }

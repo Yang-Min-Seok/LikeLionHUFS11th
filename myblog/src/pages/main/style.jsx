@@ -27,4 +27,11 @@ export const BodyDiv = styled.div`
         background-position: center;
         transform: translateY(4px) translateX(-10px);
     }
+    h1{
+        margin: 0;
+        font-family: serif;
+        line-height: 2;
+        margin-top: 50px;
+        font-size: 190%;
+    }
 `
