@@ -88,13 +88,23 @@ export const BodyDiv = styled.div`
         box-sizing: border-box;
         margin-bottom: 50px;
         position: relative;
+        transition: all 0.3s;
+        border-radius: 20px;
+    }
+    #articleBox div:hover{
+        background-color: #A67951;
+        color: red;
     }
     #articleBox div::before{
-        content: "삭제버튼";
-        display:block;
+        content: "클릭하여 삭제";
+        display: block;
         position: absolute;
         right: 0;
         top: 0;
+        width: 150px;
+        line-height: 2;
+        color: #fff;
+        font-size: 120%;
     }
     #articleBox div h3{
         margin: 0;

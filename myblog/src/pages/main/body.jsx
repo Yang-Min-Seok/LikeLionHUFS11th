@@ -41,6 +41,16 @@ function Body() {
         setPopUp(false);
     }
 
+    // 삭제 기능 구현
+    const handleDelete = (e) => {
+        const reCheck = window.confirm('정말 삭제하시겠습니까?');
+        if (reCheck){
+            const targetId = Number(e.target.id);
+            const newArticleList = [...articleList.slice(0, targetId), ...articleList.slice(targetId + 1)];
+            setArticleList(newArticleList);
+        }
+    };
+
     // 채워넣기
     const articleBox = document.getElementById('articleBox');
     if (articleBox) {
@@ -75,7 +85,7 @@ function Body() {
                     </form>
                 </div>
             }
-            <div id="articleBox">
+            <div id="articleBox" onClick={handleDelete}>
                 
             </div>
         </BodyDiv>
